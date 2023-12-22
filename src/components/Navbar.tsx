@@ -10,10 +10,10 @@ export function NavBar() {
             <h1 className="text-white">Nav</h1>
           </div>
           <div className="flex">
-            <Link to="/" className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+            <Link to="/christmas2023/" className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
               Home
             </Link>
-            <Link to="/about" className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+            <Link to="/christmas2023/about" className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
               About
             </Link>
           </div>
