@@ -7,6 +7,15 @@ import carmen from '../assets/carmen.jpg';
 import jenny from '../assets/jenny.jpg';
 import annie from '../assets/annie.jpg';
 
+const imageMessages = {
+  [dad]: 'This is Dad. 他是爸爸。',
+  [mom]: 'This is Mom. 她是妈妈。',
+  [shirley]: 'This is Shirley. 她是雪莉。',
+  [alan]: 'This is Alan. 他是艾伦。',
+  [carmen]: 'This is Carmen. 她是卡门。',
+  [jenny]: 'This is Jenny. 她是珍妮。',
+  [annie]: 'This is Annie. 她是安妮。',
+};
 
 export function Home() {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -65,6 +74,9 @@ export function Home() {
               {/* Body */}
               <div className="relative p-6 flex-auto">
                 <img src={selectedImage || ""} alt="person-details" className="size-96" />
+                <p>
+                  {imageMessages[selectedImage || '']}
+                </p>
               </div>
               {/* Footer */}
               <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
