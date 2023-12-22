@@ -34,10 +34,10 @@ export function Home() {
 
   return (
     <div>
-      <h1 className="text-3xl mt-10 mr-5">Select which card to view</h1>
+      <h1 className="text-3xl mt-10 mr-5">Select which card to view. 选择要查看的卡</h1>
 
       <section>
-        <h2 className="text-2xl m-5">Who are you?</h2>
+        <h2 className="text-2xl m-5">Who are you? 你是谁?</h2>
         <div className="logos flex flex-wrap m-5">
           {images.map((image, index) => (
             <div key={index} className="logo size-64 mr-5 mb-5 hover:opacity-80" onClick={() => toggleModal(image)}>
@@ -64,7 +64,7 @@ export function Home() {
               </div>
               {/* Body */}
               <div className="relative p-6 flex-auto">
-                <img src={selectedImage || ""} alt="person-details" className="w-full h-auto" />
+                <img src={selectedImage || ""} alt="person-details" className="size-96" />
               </div>
               {/* Footer */}
               <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
