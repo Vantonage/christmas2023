@@ -18,7 +18,7 @@ const imageMessages = {
 };
 
 export function Home() {
-  const [modalOpen, setModalOpen] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const toggleModal = (image: string) => {
