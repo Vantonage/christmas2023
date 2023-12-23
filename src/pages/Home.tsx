@@ -8,7 +8,7 @@ import jenny from '../assets/jenny.jpg';
 import annie from '../assets/annie.jpg';
 
 const imageMessages = {
-  [dad]: 'This is Dad. 他是爸爸。',
+  [dad]: '圣诞快乐，爸爸。希望你今天过得愉快 我的礼物是一张简单的贺卡，上面写着从你开始给每个人的祝福。',
   [mom]: 'This is Mom. 她是妈妈。',
   [shirley]: 'This is Shirley. 她是雪莉。',
   [alan]: 'This is Alan. 他是艾伦。',
