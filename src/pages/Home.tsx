@@ -8,13 +8,13 @@ import jenny from '../assets/jenny.jpg';
 import annie from '../assets/annie.jpg';
 
 const imageMessages = {
-  [dad]: '圣诞快乐，爸爸。希望你今天过得愉快 我的礼物是一张简单的贺卡，上面写着从你开始给每个人的祝福。',
-  [mom]: '接下来是给妈妈的。圣诞快乐 希望你今天过得愉快。希望我今天能早起，并能继续早起。哈哈哈。我还会找份工作，这样就能学以致用了。\n\n 爱你的儿子',
-  [shirley]: 'This is Shirley. 她是雪莉。',
-  [alan]: 'This is Alan. 他是艾伦。',
-  [carmen]: 'This is Carmen. 她是卡门。',
-  [jenny]: 'This is Jenny. 她是珍妮。',
-  [annie]: 'This is Annie. 她是安妮。',
+  [dad]: '圣诞快乐，爸爸。\n希望你有美好的一天 我的礼物是一张简单的卡片，上面写着从你开始对所有人的祝福。谢谢你的美味炸鸡，希望你能继续戒烟。\n\n 爱你的儿子',
+  [mom]: '圣诞快乐，妈妈 \n 希望你今天过得愉快，也希望我今天能早早起床。也希望我能继续自己早起。哈哈哈。我还要去找份工作，这样就能学以致用了。\n\n  爱你的儿子',
+  [shirley]: "Merry Christmas Shirley. \nThank you for being the best eldest sister I can have. Thank you for washing dishes 2-3 times a week so I don't have to :). Also, thanks for getting dad the massage gun so I can use it if anyone needs a massage. \n\n Love, your younger brother (not Alan), \n Ricky ",
+  [alan]: 'Merry Christmas Alan.  \n You need to stop touching me man. Go get friends so you can play with them. Go talk to some white dudes who are looking for people to fish and snowboard together. They lonely like you too. \n\n Love, your only brother, \n Ricky',
+  [carmen]: 'Merry Christmas Carmen. \n Thank you for being the best sister who taught me how to bike and drive. Thank you for always driving me around :) and for helping me with my driving education. \n\n Love, your only younger brother, \n Ricky ',
+  [jenny]: 'Merry Christmas Jenny. \n Thank you for being the best weeb sister. Your role and contributions in society should be noteworthy and celebrated for without your help, it would be Gojover as there would be tons of unwashed bums. j/k :D \n\n Love, your brother who regrets introucing you to AOT, \n Ricky ',
+  [annie]: 'Merry Christmas Annie. \n Thank you for being the best closest to my age sister I can have. Thank you for being a fellow Twitch.tv/The_Happy_Hob viewer and LeBum/the Snake hater so we can have high quality and world defining conversations.\n May your mornings stay cozee, and the skies remains blue. \n\n Love, your same weight younger brother, \n Ricky ',
 };
 
 export function Home() {
