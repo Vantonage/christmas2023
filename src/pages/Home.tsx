@@ -9,7 +9,7 @@ import annie from '../assets/annie.jpg';
 
 const imageMessages = {
   [dad]: '圣诞快乐，爸爸。希望你今天过得愉快 我的礼物是一张简单的贺卡，上面写着从你开始给每个人的祝福。',
-  [mom]: 'This is Mom. 她是妈妈。',
+  [mom]: '接下来是给妈妈的。圣诞快乐 希望你今天过得愉快。希望我今天能早起，并能继续早起。哈哈哈。我还会找份工作，这样就能学以致用了。\n\n 爱你的儿子',
   [shirley]: 'This is Shirley. 她是雪莉。',
   [alan]: 'This is Alan. 他是艾伦。',
   [carmen]: 'This is Carmen. 她是卡门。',
@@ -72,11 +72,13 @@ export function Home() {
                 </button>
               </div>
               {/* Body */}
-              <div className="relative p-6 flex-auto">
-                <img src={selectedImage || ""} alt="person-details" className="size-96" />
-                <p>
-                  {imageMessages[selectedImage || '']}
-                </p>
+              <div className="relative p-6 flex-auto flex flex-col items-center">
+                <img src={selectedImage || ""} alt="person-details" className="size-96 mb-10" />
+                <div className="text-xl w-3/4 whitespace-pre-line" >
+                  <p>
+                    {imageMessages[selectedImage || '']}
+                  </p>
+                </div>
               </div>
               {/* Footer */}
               <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
